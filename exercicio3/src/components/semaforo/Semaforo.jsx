@@ -6,13 +6,13 @@ export default function Semaforo() {
 
   return (
     <div>
-      <h2 style={corSemaforo == 0 ? { color: "red" } : { color: "black" }}>
+      <h2 style={corSemaforo == 0 ? { color: "red" } : { color: "white" }}>
         PARE!
       </h2>
-      <h2 style={corSemaforo == 1 ? { color: "yellow" } : { color: "black" }}>
+      <h2 style={corSemaforo == 1 ? { color: "yellow" } : { color: "white" }}>
         ATENÇÃO!
       </h2>
-      <h2 style={corSemaforo == 2 ? { color: "green" } : { color: "black" }}>
+      <h2 style={corSemaforo == 2 ? { color: "green" } : { color: "white" }}>
         SIGA!
       </h2>
       <button
